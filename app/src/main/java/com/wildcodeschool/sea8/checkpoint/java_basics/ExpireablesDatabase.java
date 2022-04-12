@@ -8,10 +8,12 @@ public class ExpireablesDatabase<E extends IExpireable> {
 
     public void addItem(E item) {
         // TODO: add a new item to the list
+        listOfExpireables.add(item);  // Andi
     }
 
     public void removeExpired() {
         // TODO: implement the neccessary function to delete all expired entries from the list
+        
     }
 
     public void sortByExpirationDate(boolean descending) {
@@ -21,12 +23,12 @@ public class ExpireablesDatabase<E extends IExpireable> {
 
     public E getFirstEntry() {
         // TODO: Return first item in the list
-        return null;
+        return listOfExpireables.get(1); // Andi
     }
 
     public E getLastEntry() {
         // TODO: Return last item in the list
-        return null;
+        return listOfExpireables.get(listOfExpireables.size()-1); // Andi
     }
 
     public List<E> getList() {

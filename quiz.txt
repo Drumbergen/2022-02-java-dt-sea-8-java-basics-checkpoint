@@ -1,65 +1,65 @@
 Q: What is the difference between the branch names "main" and "master"?
-A:
+A: now we use main in old projekt was use master
 
 Q: How do you checkout into the working tree of branch "main"?
-A:
+A: git checkout main
 
 Q: What is the command that allows you to temporarily store away your current, uncommited changes in order to restore them later?
-A:
+A: git stash
 
 Q: How do you list the commit history?
-A:
+A: git log
 
 Q: What is the difference between "git pull" and "git fetch"?
-A:
+A: "git pull" wirkt auf den aktuellen branch und "git fetch" wirkt auf den angeben branch (oder bei weg lassen des branch auf alle)
 
 Q: What is the return type of the expression (true && false)?
-A:
+A: false
 
 Q: How can you write "i = i + 2" more concisely?
-A:
+A: i+=2
 
 Q: How do you split a string on each occurence of ","?
-A:
+A: Methode split und eine Schleife über den String
 
 Q: How do you compare a String the proper way? How do you ignore the casing of the words?
-A:
+A: equalsIgnoreCase​(String anotherString)
 
 Q: Name an implementation of the "List" interface. Is a list ordered, is it sorted?
-A:
+A: ArryList / No, No
 
 Q: Name an implementation of the "Set" interface. Is a list ordered, is it sorted?
-A:
+A: TreeSet / Yes, Yes
 
 Q: We have an array "humans", what is the correct way of retrieving it's size?
-A:
+A: humans.size()    (-1 (Minus eins ist ggf. erforderlich weil das erste Element die Nummer 0 bekommt)
 
 Q: For a list "humans", we try to access it's size with "int size = humans.size;". Is that correct?
-A:
+A: Nein geht über size()
 
 Q: How can we catch exceptions and prevent them from crashing our program?
-A:
+A: try {} catch {}
 
 Q: How can you quickly load all lines from a file "quiz.txt" using a class from "java.nio"?
 A:
 
 Q: We have a class "Apple" that has an attribute "price" and also contains a "DEFAULT_PRICE" for all new apples. Which of them is static and why?
-A:
+A: Der DEFAULT_PRICE ist Static weil er beim Programstart vorhanden ist
 
 Q: What is the full declaration of the "main" method of a class?
-A:
+A: public static void main(String[]
 
 Q: What is an object?
-A:
+A: Eine Instanz einer Klasse
 
 Q: Which naming rule should you apply to the naming of methods?
-A:
+A: Sprechende Namen die klein beginnen Weitere Teile können zur besseren Lesbarkeit Groß geschrieben werden z.B. getNameStrasse
 
 Q: Does java.util.Date only describe the date?
-A:
+A: Nein Datum und Uhrzeit
 
 Q: How can you store the local time (no time zone info)?
-A:
+A: LocalDate.now()
 
 Q: Name at least one example of a generic interface from the standard library.
-A:
+A: ArryList
